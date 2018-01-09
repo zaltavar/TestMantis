@@ -32,7 +32,7 @@
         "type": "none"
       },
       "selector": "font",
-      "control": "text"
+      "control": "property.innerHTML"
     },
     "submit": {
       "type": "action",
@@ -46,6 +46,11 @@
       },
       "selector": ".button",
       "control": "action.button"
+    },
+    "islogin": {
+      "type": "action",
+      "selector": ".button",
+      "control": "exists"
     }
   },
   "connect": []
