@@ -43,7 +43,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button",
+      "control": "action.button"
     }
   },
   "connect": []
