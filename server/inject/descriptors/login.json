@@ -10,7 +10,7 @@
           "submit"
         ]
       },
-      "selector": "input[nane='username']",
+      "selector": "input[name='username']",
       "control": "text"
     },
     "password": {
