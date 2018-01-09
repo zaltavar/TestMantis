@@ -9,7 +9,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "selector": "body",
+            "selector": "td",
             "control": "property.innerText"
           },
           "summary": {
