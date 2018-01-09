@@ -30,8 +30,9 @@
     },
     "isviewlist": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": ".floatleft",
+      "control": "property.innerText",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
