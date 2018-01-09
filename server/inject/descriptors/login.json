@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "label": "username",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      },
+      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=\"text\"]"
+    },
+    "password": {
+      "type": "string",
+      "label": "password",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "errorMessage": {
+      "type": "string",
+      "label": "errorMessage",
+      "update": {
+        "type": "none"
+      }
+    },
+    "submit": {
+      "type": "action",
+      "parameters": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "connect": []
+}
