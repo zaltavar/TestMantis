@@ -4,7 +4,7 @@
     "isLanding": {
       "type": "identifier",
       "selector": "[name=\"username\"]",
-      "control": "text"
+      "control": "exists"
     }
   },
   "connect": [],
