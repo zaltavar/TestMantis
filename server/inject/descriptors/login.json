@@ -30,7 +30,9 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "font",
+      "control": "text"
     },
     "submit": {
       "type": "action",
