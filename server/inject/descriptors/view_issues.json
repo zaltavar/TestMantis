@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "issuelist": {
+      "type": "array",
+      "selectorAll": "body",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          },
+          "summary": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          }
+        }
+      }
+    },
+    "isviewlist": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
