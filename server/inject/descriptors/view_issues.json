@@ -30,8 +30,8 @@
     },
     "isviewlist": {
       "type": "identifier",
-      "selector": ".floatleft",
-      "control": "exists",
+      "selector": "html",
+      "control": "view_all_bug_page",
       "selectContains": "Viewing Issues"
     }
   },
