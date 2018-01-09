@@ -32,7 +32,7 @@
         "type": "none"
       },
       "selector": "font",
-      "control": "property.innerHTML"
+      "control": "text"
     },
     "submit": {
       "type": "action",
