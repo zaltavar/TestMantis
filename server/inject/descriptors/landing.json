@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": "[name=\"username\"]",
+      "control": "text"
+    }
+  },
+  "connect": [],
+  "selector": "page.href",
+  "selectContains": "my_view_page"
+}
