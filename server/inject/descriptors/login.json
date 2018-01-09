@@ -21,7 +21,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "input[name='password']",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
