@@ -10,7 +10,7 @@
           "submit"
         ]
       },
-      "selector": "input[name='username']"
+      "selector": "input[name='username'].value"
     },
     "password": {
       "type": "string",
