@@ -3,9 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "page.href",
+      "selector": ".subtle",
       "control": "exists",
-      "selectContains": "my_view_page"
+      "selectContains": "Assigned to Me"
     }
   },
   "connect": [],
