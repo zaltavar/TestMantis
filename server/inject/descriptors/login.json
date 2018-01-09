@@ -10,7 +10,7 @@
           "submit"
         ]
       },
-      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=\"text\"]"
+      "selector": "form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=\"text\"]"
     },
     "password": {
       "type": "string",
