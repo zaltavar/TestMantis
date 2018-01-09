@@ -32,7 +32,7 @@
         "type": "none"
       },
       "selector": "font",
-      "control": "text"
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
