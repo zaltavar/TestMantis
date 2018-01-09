@@ -55,7 +55,8 @@
     "warningmessage": {
       "type": "string",
       "selector": "font",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "Warning"
     }
   },
   "connect": [
