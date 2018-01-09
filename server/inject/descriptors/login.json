@@ -51,6 +51,11 @@
       "type": "action",
       "selector": ".button",
       "control": "exists"
+    },
+    "warningmessage": {
+      "type": "string",
+      "selector": "font",
+      "control": "property.innerText"
     }
   },
   "connect": [
