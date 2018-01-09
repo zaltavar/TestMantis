@@ -3,8 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": "[name=\"username\"]",
-      "control": "exists"
+      "selector": "page.href",
+      "control": "exists",
+      "selectContains": "my_view_page"
     }
   },
   "connect": [],
