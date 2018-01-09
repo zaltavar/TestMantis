@@ -44,7 +44,8 @@
           "type": "string"
         }
       },
-      "control": "action.button"
+      "control": "action.button",
+      "selector": ".button"
     },
     "islogin": {
       "type": "action",
