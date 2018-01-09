@@ -10,7 +10,8 @@
           "id": {
             "type": "string",
             "selector": "td",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
