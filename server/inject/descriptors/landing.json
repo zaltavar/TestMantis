@@ -8,7 +8,5 @@
       "selectContains": "Assigned to Me"
     }
   },
-  "connect": [],
-  "selector": "page.href",
-  "selectContains": "my_view_page"
+  "connect": []
 }
