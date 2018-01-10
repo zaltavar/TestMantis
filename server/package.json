@@ -1,6 +1,6 @@
 {
   "name": "testmantis",
-  "version": "5.2.1",
+  "version": "5.2.10",
   "private": true,
   "description": "PowWow transformation",
   "main": "start.js",
