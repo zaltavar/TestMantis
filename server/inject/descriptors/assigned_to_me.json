@@ -22,5 +22,12 @@
       "selectorAll": "table.width100 tr[bgcolor=\"#c2dfff\"]"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "myissuelist"
+      ]
+    }
+  ]
 }

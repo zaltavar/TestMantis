@@ -121,5 +121,24 @@
         }
       }
     }
+  },
+  "assigned_to_me": {
+    "type": "object",
+    "properties": {
+      "myissuelist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
