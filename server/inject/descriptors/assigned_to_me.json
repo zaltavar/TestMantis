@@ -10,6 +10,12 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText"
+          },
+          "content": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 1
           }
         }
       },
