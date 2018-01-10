@@ -1,5 +1,20 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "myissuelist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText"
+          }
+        }
+      },
+      "selectorAll": "table.width100 tr[bgcolor=\"#c2dfff\"]"
+    }
+  },
   "connect": []
 }
