@@ -11,7 +11,7 @@
         ]
       },
       "control": "text",
-      "selector": "[name=\"username\"]"
+      "selector": "input[name='username']"
     },
     "password": {
       "type": "string",
