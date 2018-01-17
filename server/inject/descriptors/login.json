@@ -10,8 +10,8 @@
           "submit"
         ]
       },
-      "selector": "input[name='username']",
-      "control": "text"
+      "control": "text",
+      "selector": "[name=\"username\"]"
     },
     "password": {
       "type": "string",
