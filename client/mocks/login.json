@@ -1,1 +1,7 @@
-{}
+{
+ "username": "administrator",
+ "password": "powwow",
+ "errorMessage": "Warning: Admin directory should be removed.",
+ "islogin": true,
+ "warningmessage": "Warning: Admin directory should be removed."
+}
