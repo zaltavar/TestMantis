@@ -33,7 +33,10 @@
       "type": "string"
     },
     "Type": {
-      "type": "select"
+      "type": "select",
+      "selector": "select",
+      "control": "select",
+      "selectIndex": 2
     },
     "Security": {
       "type": "boolean"
