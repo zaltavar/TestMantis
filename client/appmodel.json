@@ -69,6 +69,12 @@
       },
       "Security": {
         "type": "boolean"
+      },
+      "Submit": {
+        "type": "action"
+      },
+      "Cancel": {
+        "type": "action"
       }
     }
   },
