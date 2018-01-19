@@ -68,5 +68,15 @@
         "value": "Category3"
       }
     ]
+  },
+  "Type": {
+    "options": [
+      {
+        "label": "Public"
+      },
+      {
+        "label": "Private"
+      }
+    ]
   }
 }
