@@ -12,7 +12,7 @@
         <div class="row"></div>
         <div class="row" data-comp-id="row.1" ng-repeat="item in data.myissuelist">
             <div class="col" data-comp-id="column.1">
-                <div data-comp-id="text.1">Some text</div>
+                <div data-comp-id="text.1" ng-bind="item.issue">Some text</div>
             </div>
         </div>
     </ion-content>
