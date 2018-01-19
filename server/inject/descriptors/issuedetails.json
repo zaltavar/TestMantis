@@ -52,6 +52,11 @@
       "type": "identifier",
       "selector": "[name=\"category_id\"]",
       "control": "select"
+    },
+    "updateScreen": {
+      "type": "action",
+      "selector": "[value=\"Update Information\"]",
+      "control": "action.button"
     }
   },
   "connect": []
