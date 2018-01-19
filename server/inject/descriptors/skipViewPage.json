@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": "html",
       "control": "url.view.php"
+    },
+    "editView": {
+      "type": "action",
+      "selector": "[Value=\"Edit\"]",
+      "control": "action.button"
     }
   },
   "connect": []
