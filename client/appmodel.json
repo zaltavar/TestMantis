@@ -66,6 +66,9 @@
       },
       "Type": {
         "type": "select"
+      },
+      "Security": {
+        "type": "boolean"
       }
     }
   },
