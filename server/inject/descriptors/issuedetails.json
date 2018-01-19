@@ -60,16 +60,5 @@
       "control": "action.button"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isDetailScreen",
-        "isDetailScreen"
-      ],
-      "screens": [
-        "issuedetails"
-      ],
-      "model": "issuedetails"
-    }
-  ]
+  "connect": []
 }
