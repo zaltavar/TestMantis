@@ -27,7 +27,9 @@
       "control": "select"
     },
     "Summary": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"summary\"]",
+      "control": "text"
     },
     "Description": {
       "type": "string"
