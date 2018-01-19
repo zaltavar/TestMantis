@@ -12,7 +12,10 @@
       "type": "select"
     },
     "Priority": {
-      "type": "select"
+      "type": "select",
+      "selector": "select",
+      "control": "select",
+      "selectIndex": 4
     },
     "AssignTo": {
       "type": "select"
