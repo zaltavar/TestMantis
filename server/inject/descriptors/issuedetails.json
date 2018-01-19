@@ -18,7 +18,10 @@
       "selectIndex": 4
     },
     "AssignTo": {
-      "type": "select"
+      "type": "select",
+      "selector": "select",
+      "selectIndex": 3,
+      "control": "select"
     },
     "Summary": {
       "type": "string"
