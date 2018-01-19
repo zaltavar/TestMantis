@@ -51,6 +51,12 @@
       },
       "Reproducibility": {
         "type": "select"
+      },
+      "Priority": {
+        "type": "select"
+      },
+      "AssignTo": {
+        "type": "select"
       }
     }
   },
