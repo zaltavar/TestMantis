@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "comment": "ListView",
+  "properties": {
+    "Category": {
+      "type": "select",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
+    },
+    "Reproducibility": {
+      "type": "select"
+    },
+    "Priority": {
+      "type": "select"
+    },
+    "AssignTo": {
+      "type": "select"
+    },
+    "Summary": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "select"
+    },
+    "Security": {
+      "type": "boolean"
+    },
+    "Submit": {
+      "type": "action"
+    },
+    "Cancel": {
+      "type": "action"
+    },
+    "isDetailScreen": {
+      "type": "identifier",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
+    }
+  },
+  "connect": []
+}
