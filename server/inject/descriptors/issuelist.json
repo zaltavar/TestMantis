@@ -9,7 +9,10 @@
       "selectIndex": 1
     },
     "Reproducibility": {
-      "type": "select"
+      "type": "select",
+      "selector": "select",
+      "control": "select",
+      "selectIndex": 6
     },
     "Priority": {
       "type": "select",
