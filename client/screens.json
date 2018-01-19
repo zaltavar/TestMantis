@@ -47,7 +47,7 @@
       "name": "issuedetails",
       "sourceScreenId": "app.issuelist",
       "sourceAppId": "testmantis",
-      "model": "issuedetails"
+      "model": "skipViewPage"
     }
   ],
   "sourceAppId": "_blank",
