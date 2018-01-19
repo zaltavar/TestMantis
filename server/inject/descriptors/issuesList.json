@@ -18,9 +18,7 @@
             "selectIndex": 1
           }
         }
-      },
-      "selectorAll": "table.width100",
-      "frameSelector": "Assigned to Me"
+      }
     },
     "isissueslist": {
       "type": "identifier",
@@ -29,14 +27,7 @@
       "selector": ".subtle"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "myissuelist"
-      ]
-    }
-  ],
+  "connect": [],
   "selector": "table.width100",
   "selectContains": "Assigned to Me"
 }
