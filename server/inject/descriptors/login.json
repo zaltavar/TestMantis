@@ -48,9 +48,10 @@
       "selector": ".button"
     },
     "islogin": {
-      "type": "action",
-      "selector": ".button",
-      "control": "exists"
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Login"
     },
     "warningmessage": {
       "type": "string",
