@@ -32,7 +32,9 @@
       "control": "text"
     },
     "Description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     },
     "Type": {
       "type": "select"
