@@ -52,5 +52,21 @@
       "string": "View/Print Statement",
       "icon": "fa-print"
     }
-  ]
+  ],
+  "Category": {
+    "options": [
+      {
+        "label": "Cat1",
+        "value": "Category1"
+      },
+      {
+        "label": "Cat2",
+        "value": "Category2"
+      },
+      {
+        "label": "Cat3",
+        "value": "Category3"
+      }
+    ]
+  }
 }
