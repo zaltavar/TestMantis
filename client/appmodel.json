@@ -178,6 +178,9 @@
       },
       "Cancel": {
         "type": "action"
+      },
+      "updateScreen": {
+        "type": "action"
       }
     }
   },
