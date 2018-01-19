@@ -10,6 +10,16 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <div class="row"></div>
+        <ion-list data-comp-id="ionic-list.1">
+            <div class="item item-icon-right" data-comp-id="item.1"
+                ng-repeat="item in data.myissuelist">
+                <div data-comp-id="text.1" ng-bind="item.issue">
+                    Some text
+                    <span class="item-note"></span>
+                </div>
+                <i class="icon ion-ios-arrow-right" data-comp-id="icon.1" style="font-size:32px"></i>
+            </div>
+        </ion-list>
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
         dynamic-floating-footer=""></div>
