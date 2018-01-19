@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "b81fc16b",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "zaltavar"
+  "creatorId": "zaltavar",
+  "id": "testmantis",
+  "previewImageURL": "/previews/b81fc16b-testmantis/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/zaltavar/TestMantis",
+  "creatorName": "Tamas Varga",
+  "sdks": []
 }

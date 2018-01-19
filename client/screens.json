@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "testmantis",
-  "startScreen": "app.blank",
+  "startScreen": "app.myissuelist",
   "screens": [
     {
       "id": "blank",
