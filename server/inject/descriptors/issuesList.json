@@ -18,7 +18,8 @@
             "selectIndex": 1
           }
         }
-      }
+      },
+      "selectorAll": "tr[bgcolor]"
     },
     "isissueslist": {
       "type": "identifier",
