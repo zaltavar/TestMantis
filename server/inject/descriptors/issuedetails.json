@@ -56,8 +56,9 @@
     },
     "isDetailScreen": {
       "type": "identifier",
-      "selector": "[name=\"category_id\"]",
-      "control": "select"
+      "control": "text",
+      "selector": ".form-title",
+      "selectContains": "Updating Issue Information"
     },
     "updateScreen": {
       "type": "action",
