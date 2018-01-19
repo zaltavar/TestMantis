@@ -1,0 +1,65 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Report an Issue</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-home" data-comp-id="button.2"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content data-comp-id="ionic-content.1">
+        <multiselect-list data-comp-id="multiselectList.1" ng-model="data.Category">Category</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.2"
+            ng-model="data.Reproducibility">Reproducibility</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.3" ng-model="data.Priority">Priority</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.4" ng-model="data.AssignTo">Assign To</multiselect-list>
+        <div class="row calm" data-comp-id="row.1">
+            <div class="col" data-comp-id="column.1">
+                <div data-comp-id="text.1" style="color: rgb(255, 255, 255);">Issue Details</div>
+            </div>
+        </div>
+        <label class="item item-input" data-comp-id="textInput.1">
+            <span class="input-label">Summary</span>
+            <input ng-model="data.Summary" type="text">
+        </label>
+        <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
+            <span class="input-label">Description</span>
+            <textarea ng-model="data.Description" rows="4" style="height: 100px;"></textarea>
+        </label>
+        <label class="item item-input item-attachment-icon positive-icon"
+            data-comp-id="attachmentInput.1">
+            <span class="input-label">Attachment</span>
+            <input type="file">
+        </label>
+        <div class="row calm" data-comp-id="row.2">
+            <div class="col" data-comp-id="column.2">
+                <div data-comp-id="text.2">Type</div>
+            </div>
+        </div>
+        <ion-radio class="radio-button" data-comp-id="radio.1"
+            ng-model="data.Type.selected" ng-repeat="item in data.Type.options"
+            ng-value="item">{{item.label}}</ion-radio>
+        <ion-checkbox data-comp-id="checkbox.1" ng-model="data.Security">Tis bug is security issue</ion-checkbox>
+    </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.3" style="padding: 0px;">
+            <div class="col" data-comp-id="column.3" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.1">
+                    <button
+                        class="button icon button-round button-shadowed ion-arrow-left-c button-stable"></button>
+                    <div class="label dark">Cancel</div>
+                </div>
+            </div>
+            <div class="col text-center" data-comp-id="column.4" style="padding: 0px;"></div>
+            <div class="col text-right" data-comp-id="column.5" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.2">
+                    <button
+                        class="button icon ion-arrow-right-c button-round button-shadowed button-balanced"></button>
+                    <div class="label balanced">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>

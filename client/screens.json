@@ -41,6 +41,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "myissuelist"
+    },
+    {
+      "id": "issuedetails",
+      "name": "issuedetails",
+      "sourceScreenId": "app.issuelist",
+      "sourceAppId": "testmantis",
+      "model": "issuedetails"
     }
   ],
   "sourceAppId": "_blank",
