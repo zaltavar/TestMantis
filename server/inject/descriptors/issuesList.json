@@ -28,8 +28,9 @@
         "isissueslist"
       ],
       "screens": [
-        "issuelist"
-      ]
+        "myissuelist"
+      ],
+      "model": "issuesList"
     }
   ],
   "selector": "table.width100",
