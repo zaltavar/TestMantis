@@ -29,8 +29,8 @@
       "model": "login"
     },
     {
-      "id": "issuelist",
-      "name": "issuelist",
+      "id": "reportissue",
+      "name": "ReportIssue",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "issuesList"
