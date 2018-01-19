@@ -40,7 +40,7 @@
       "name": "myissuelist",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
-      "model": "issuelist"
+      "model": "myissuelist"
     },
     {
       "id": "issuedetails",
