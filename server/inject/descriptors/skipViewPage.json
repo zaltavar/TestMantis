@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isIssueView": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.view.php"
+    }
+  },
+  "connect": []
+}
