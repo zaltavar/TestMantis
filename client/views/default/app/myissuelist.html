@@ -9,41 +9,15 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div class="row" data-comp-id="row.1" ng-click="app.go('app.issuedetails')"
-            ng-repeat="item in data.MyAssigned"
-            style="border-bottom: 1px solid rgb(221, 221, 221);">
-            <i class="icon ion-checkmark-circled stable" data-comp-id="icon.1"
-                ng-if="!item.Security" style="font-size: 28px; padding: 5px; margin: 5px;"></i>
-            <i class="icon ion-information-circled balanced" data-comp-id="icon.2"
-                ng-if="item.Security" style="font-size: 28px; padding: 5px; margin: 5px;"></i>
+        <div class="row" data-comp-id="row.1" ng-repeat="item in data.myissuelist">
             <div class="col" data-comp-id="column.1">
-                <div data-comp-id="text.1" ng-bind="item.Priority">Some text</div>
-                <div class=" dark" data-comp-id="text.2" ng-bind="item.Reporter"
-                    style="font-size: 16px; line-height: 22px; font-weight: bold;">Some text</div>
-                <div data-comp-id="text.3" ng-bind="item.Summary"
-                    style="font-size: 18px; line-height: 24px;">Some text</div>
-                <div class=" dark" data-comp-id="text.4" ng-bind="item.Date">Some text</div>
+                <div data-comp-id="text.1">Some text</div>
             </div>
-            <i class="icon ion-chevron-right" data-comp-id="icon.3" style="margin: 0px 5px;"></i>
         </div>
-        <div class="row" data-comp-id="row.2" ng-repeat="item in data.myissuelist">
+        <div class="row"></div>
+        <div class="row" data-comp-id="row.2">
             <div class="col" data-comp-id="column.2">
-                <div data-comp-id="text.5" ng-bind="item.issue"></div>
-            </div>
-        </div>
-        <div class="row" data-comp-id="row.3" ng-repeat="item in data.myissuelist">
-            <div class="col" data-comp-id="column.3">
-                <div data-comp-id="text.6">Some text</div>
-            </div>
-        </div>
-        <div class="row" data-comp-id="row.4" ng-repeat="item in data.myissuelist">
-            <div class="col" data-comp-id="column.4">
-                <div data-comp-id="text.7">Some text</div>
-            </div>
-        </div>
-        <div class="row" data-comp-id="row.5">
-            <div class="col" data-comp-id="column.5">
-                <label class="item item-input" data-comp-id="textInput.2">
+                <label class="item item-input" data-comp-id="textInput.1">
                     <span class="input-label">Issue</span>
                     <input ng-model="data.myissuelist.issue" type="text">
                 </label>
@@ -51,18 +25,5 @@
         </div>
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
-        dynamic-floating-footer="">
-        <div class="row" data-comp-id="row.6" style="padding: 0px;">
-            <div class="col" data-comp-id="column.6" style="padding: 0px;"></div>
-            <div class="col text-center" data-comp-id="column.7" style="padding: 0px;">
-                <div class="footer-button" data-comp-id="footerButton.1">
-                    <button
-                        class="button icon button-round button-shadowed ion-plus-round button-positive"
-                        ng-click="app.go('app.reportissue')"></button>
-                    <div class="label"></div>
-                </div>
-            </div>
-            <div class="col text-right" data-comp-id="column.8" style="padding: 0px;"></div>
-        </div>
-    </div>
+        dynamic-floating-footer=""></div>
 </ion-view>
