@@ -36,5 +36,7 @@
         "myissuelist"
       ]
     }
-  ]
+  ],
+  "selector": "table.width100",
+  "selectContains": "Assigned to Me"
 }
