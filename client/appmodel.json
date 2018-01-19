@@ -63,6 +63,9 @@
       },
       "Description": {
         "type": "string"
+      },
+      "Type": {
+        "type": "select"
       }
     }
   },

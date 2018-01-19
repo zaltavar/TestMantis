@@ -21,11 +21,11 @@
         </div>
         <label class="item item-input" data-comp-id="textInput.1">
             <span class="input-label">Summary</span>
-            <input type="text">
+            <input ng-model="data.Summary" type="text">
         </label>
         <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
             <span class="input-label">Description</span>
-            <textarea rows="4" style="height: 120px;"></textarea>
+            <textarea ng-model="data.Description" rows="4" style="height: 120px;"></textarea>
         </label>
         <label class="item item-input item-attachment-icon positive-icon"
             data-comp-id="attachmentInput.1">
