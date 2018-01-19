@@ -42,12 +42,6 @@
       "control": "select",
       "selectIndex": 2
     },
-    "Security": {
-      "type": "boolean"
-    },
-    "Submit": {
-      "type": "action"
-    },
     "Cancel": {
       "type": "action",
       "selector": "a",
