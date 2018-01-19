@@ -56,7 +56,7 @@
     },
     "isDetailScreen": {
       "type": "identifier",
-      "control": "text",
+      "control": "exists",
       "selector": ".form-title",
       "selectContains": "Updating Issue Information"
     },
