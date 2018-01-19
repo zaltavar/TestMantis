@@ -9,41 +9,24 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1">
-            <div class="item item-icon-right" data-comp-id="item.1"
-                ng-click="app.action('listview', 'data.listItems[item].action', this)"
-                ng-repeat="item in data.listItems"
-                style="border-top: 1px solid rgba(255, 255, 255, 0);">
-                <div class=" positive" data-comp-id="text.1" ng-bind="item.string">Price &amp; Availability</div>
-                <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
-                    style="font-size: 20px;"></i>
-            </div>
-            <div data-comp-id="div.1">
-                <div class="row" data-comp-id="row.1">
-                    <div class="col" data-comp-id="column.3">
-                        <label class="item item-input" data-comp-id="textInput.1">
-                            <span class="input-label">Id</span>
-                            <input ng-model="data.issuelist.id" type="text">
-                        </label>
-                    </div>
-                </div>
-                <div class="row" data-comp-id="row.2">
-                    <div class="col" data-comp-id="column.4">
-                        <label class="item item-input" data-comp-id="textInput.3">
-                            <span class="input-label">Severity</span>
-                            <input ng-model="data.issuelist.severity" type="text">
-                        </label>
-                    </div>
-                </div>
-                <div class="row" data-comp-id="row.3">
-                    <div class="col" data-comp-id="column.2">
-                        <label class="item item-input" data-comp-id="textInput.2">
-                            <span class="input-label">Summary</span>
-                            <input ng-model="data.issuelist.summary" type="text">
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </ion-list>
+        <multiselect-list data-comp-id="multiselectList.1">Input Label</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.2">Input Label</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.3">Input Label</multiselect-list>
+        <multiselect-list data-comp-id="multiselectList.4">Input Label</multiselect-list>
+        <label class="item item-input" data-comp-id="textInput.1">
+            <span class="input-label">Label</span>
+            <input type="text">
+        </label>
+        <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
+            <span class="input-label">Label</span>
+            <textarea rows="4"></textarea>
+        </label>
+        <label class="item item-input item-attachment-icon positive-icon"
+            data-comp-id="attachmentInput.1">
+            <span class="input-label">Attachment</span>
+            <input type="file">
+        </label>
+        <ion-radio class="radio-button" data-comp-id="radio.1">Radio Label</ion-radio>
+        <ion-checkbox data-comp-id="checkbox.1">Checkbox Label</ion-checkbox>
     </ion-content>
 </ion-view>
