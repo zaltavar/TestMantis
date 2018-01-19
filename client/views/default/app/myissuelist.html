@@ -28,10 +28,7 @@
         </div>
         <div class="row" data-comp-id="row.2" ng-repeat="item in data.myissuelist">
             <div class="col" data-comp-id="column.2">
-                <div data-comp-id="text.5">
-                    Some text
-                    <span class="item-note"></span>
-                </div>
+                <div data-comp-id="text.5" ng-bind="item.issue"></div>
             </div>
         </div>
         <div class="row" data-comp-id="row.3" ng-repeat="item in data.myissuelist">

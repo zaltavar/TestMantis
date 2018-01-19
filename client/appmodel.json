@@ -212,7 +212,10 @@
           "type": "object",
           "properties": {
             "issue": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
