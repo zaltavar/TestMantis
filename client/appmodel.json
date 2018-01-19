@@ -163,50 +163,5 @@
         }
       }
     }
-  },
-  "issuedetails": {
-    "type": "object",
-    "comment": "ListView",
-    "properties": {
-      "MyAssigned": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "Summary": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Reporter": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Priority": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Security": {
-              "type": "boolean"
-            },
-            "Date": {
-              "type": "date",
-              "format": "MM/DD/YYYY",
-              "update": {
-                "type": "none"
-              }
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
   }
 }
