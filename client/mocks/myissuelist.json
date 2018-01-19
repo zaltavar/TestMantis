@@ -59,7 +59,14 @@
       "Reporter": "vmi",
       "Priority": "Public",
       "Security": null,
-      "Date": null
+      "Date": "2018-02-03T00:00:00+01:00"
+    },
+    {
+      "Summary": "teszt2",
+      "Reporter": "vmi2",
+      "Priority": "Public",
+      "Security": null,
+      "Date": "2018-03-03T00:00:00+01:00"
     }
   ]
 }
