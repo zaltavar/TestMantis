@@ -1,0 +1,43 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Assigned Issues</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-android-search" data-comp-id="button.2"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content data-comp-id="ionic-content.1">
+        <div class="row" data-comp-id="row.1" ng-repeat="item in data.MyAssigned"
+            style="border-bottom: 1px solid rgb(221, 221, 221);">
+            <i class="icon ion-checkmark-circled stable" data-comp-id="icon.2"
+                ng-if="!item.Security" style="font-size: 28px; padding: 5px; margin: 5px;"></i>
+            <i class="icon ion-information-circled balanced" data-comp-id="icon.3"
+                ng-if="item.Security" style="font-size: 28px; padding: 5px; margin: 5px;"></i>
+            <div class="col" data-comp-id="column.1">
+                <div data-comp-id="text.3" ng-bind="item.Priority">Some text</div>
+                <div class=" dark" data-comp-id="text.1" ng-bind="item.Reporter"
+                    style="font-size: 16px; line-height: 22px; font-weight: bold;">Some text</div>
+                <div data-comp-id="text.2" ng-bind="item.Summary"
+                    style="font-size: 18px; line-height: 24px;">Some text</div>
+                <div class=" dark" data-comp-id="text.4" ng-bind="item.Date">Some text</div>
+            </div>
+            <i class="icon ion-chevron-right" data-comp-id="icon.1" style="margin: 0px 5px;"></i>
+        </div>
+    </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.2" style="padding: 0px;">
+            <div class="col" data-comp-id="column.2" style="padding: 0px;"></div>
+            <div class="col text-center" data-comp-id="column.3" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.2">
+                    <button
+                        class="button icon button-round button-shadowed ion-plus-round button-positive"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+            <div class="col text-right" data-comp-id="column.4" style="padding: 0px;"></div>
+        </div>
+    </div>
+</ion-view>
