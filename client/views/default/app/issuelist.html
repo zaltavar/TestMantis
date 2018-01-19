@@ -37,7 +37,9 @@
                 <div data-comp-id="text.2">Type</div>
             </div>
         </div>
-        <ion-radio class="radio-button" data-comp-id="radio.1">Radio Label</ion-radio>
+        <ion-radio class="radio-button" data-comp-id="radio.1"
+            ng-model="data.Type.selected" ng-repeat="item in data.Type.options"
+            ng-value="item">{{item.label}}</ion-radio>
         <ion-checkbox data-comp-id="checkbox.1">Checkbox Label</ion-checkbox>
     </ion-content>
     <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
