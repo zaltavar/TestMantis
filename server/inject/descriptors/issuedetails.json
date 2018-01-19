@@ -65,5 +65,16 @@
       "control": "action.button"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isDetailScreen",
+        "isDetailScreen"
+      ],
+      "screens": [
+        "issuedetails"
+      ],
+      "model": "issuedetails"
+    }
+  ]
 }
