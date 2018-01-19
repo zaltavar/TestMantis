@@ -3,7 +3,10 @@
   "comment": "ListView",
   "properties": {
     "Category": {
-      "type": "select"
+      "type": "select",
+      "selector": "select",
+      "control": "select",
+      "selectIndex": 1
     },
     "Reproducibility": {
       "type": "select"
