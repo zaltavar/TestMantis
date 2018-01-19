@@ -52,5 +52,14 @@
       "string": "View/Print Statement",
       "icon": "fa-print"
     }
+  ],
+  "MyAssigned": [
+    {
+      "Summary": "teszt1",
+      "Reporter": "vmi",
+      "Priority": "Public",
+      "Security": null,
+      "Date": null
+    }
   ]
 }

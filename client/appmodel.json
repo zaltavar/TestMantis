@@ -126,6 +126,9 @@
               "format": "MM/DD/YYYY"
             }
           }
+        },
+        "update": {
+          "type": "none"
         }
       }
     }
