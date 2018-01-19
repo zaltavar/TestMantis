@@ -104,27 +104,28 @@
     "type": "object",
     "comment": "ListView",
     "properties": {
-      "listItems": {
+      "MyAssigned": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "string": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "action": {
-              "type": "action"
-            },
-            "icon": {
+            "Summary": {
               "type": "string"
+            },
+            "Reporter": {
+              "type": "string"
+            },
+            "Priority": {
+              "type": "string"
+            },
+            "Security": {
+              "type": "boolean"
+            },
+            "Date": {
+              "type": "date",
+              "format": "MM/DD/YYYY"
             }
           }
-        },
-        "update": {
-          "type": "none"
         }
       }
     }
