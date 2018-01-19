@@ -199,5 +199,23 @@
         }
       }
     }
+  },
+  "issuesList": {
+    "type": "object",
+    "properties": {
+      "myissuelist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "issue": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "selector": "table.width100",
+    "selectContains": "Assigned to Me"
   }
 }
