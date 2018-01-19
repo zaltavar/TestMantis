@@ -20,6 +20,12 @@
         }
       },
       "selectorAll": "table.width100 tr[bgcolor=\"#c2dfff\"]"
+    },
+    "isissueslist": {
+      "type": "identifier",
+      "control": "exists",
+      "selectContains": "Assigned to Me (Unresolved)",
+      "selector": ".subtle"
     }
   },
   "connect": [

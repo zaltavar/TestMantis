@@ -145,25 +145,6 @@
       }
     }
   },
-  "assigned_to_me": {
-    "type": "object",
-    "properties": {
-      "myissuelist": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "content": {
-              "type": "string"
-            }
-          }
-        }
-      }
-    }
-  },
   "issuedetails": {
     "type": "object",
     "comment": "ListView",
@@ -197,6 +178,25 @@
       },
       "Cancel": {
         "type": "action"
+      }
+    }
+  },
+  "issueslist": {
+    "type": "object",
+    "properties": {
+      "myissuelist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
