@@ -52,5 +52,13 @@
       "type": "action"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "issuelist"
+      ],
+      "model": "issuelist"
+    }
+  ]
 }

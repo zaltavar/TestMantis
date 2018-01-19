@@ -22,17 +22,7 @@
       "selector": ".subtle"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isissueslist"
-      ],
-      "screens": [
-        "myissuelist"
-      ],
-      "model": "issuesList"
-    }
-  ],
+  "connect": [],
   "selector": "table.width100",
   "selectContains": "Assigned to Me"
 }
