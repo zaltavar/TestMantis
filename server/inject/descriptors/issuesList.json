@@ -6,16 +6,10 @@
       "items": {
         "type": "object",
         "properties": {
-          "id": {
+          "issue": {
             "type": "string",
-            "selector": "td",
+            "selector": "td.left",
             "control": "property.innerText"
-          },
-          "content": {
-            "type": "string",
-            "selector": "td",
-            "control": "property.innerText",
-            "selectIndex": 1
           }
         }
       },
