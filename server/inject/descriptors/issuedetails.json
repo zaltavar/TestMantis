@@ -49,7 +49,10 @@
       "type": "action"
     },
     "Cancel": {
-      "type": "action"
+      "type": "action",
+      "selector": "a",
+      "selectContains": "Back To Issue",
+      "control": "action.link"
     },
     "isDetailScreen": {
       "type": "identifier",
