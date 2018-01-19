@@ -32,7 +32,8 @@
         "type": "none"
       },
       "selector": "font",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "Your account"
     },
     "submit": {
       "type": "action",
@@ -57,7 +58,7 @@
       "type": "string",
       "selector": "font",
       "control": "property.innerText",
-      "selectContains": "Warning"
+      "selectContains": "Your account"
     }
   },
   "connect": [
